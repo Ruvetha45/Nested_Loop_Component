@@ -1,0 +1,48 @@
+/* Container styling */
+.nested-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+}
+
+/* Remove bullet points and padding */
+.nested-list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+/* Style for each list item */
+.list-item {
+  margin: 5px 0;
+  position: relative;
+}
+
+/* Header style for clickable elements */
+.item-header {
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.item-header:hover {
+  background-color: #e0e0e0;
+}
+
+/* Folder icon style */
+.folder-icon {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+/* Style for nested children */
+.nested-children {
+  margin-left: 20px;
+  border-left: 2px solid #ccc;
+  padding-left: 10px;
+  margin-top: 5px;
+}
